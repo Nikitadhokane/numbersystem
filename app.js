@@ -13,6 +13,6 @@ const minPrime = math.min(arrPrime);
 const sumPrime = arrPrime.reduce((sum, num) => sum + num, 0);
 
 console.log("Prime Numbers:" , arrPrime);
-console.log(maxPrime);
-console.log(minPrime);
-console.log(sumPrime);
+console.log("Maximum Prime:", maxPrime);
+console.log("Minimum Prime:", minPrime);
+console.log("Sum Of Prime:" , sumPrime);
